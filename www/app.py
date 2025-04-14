@@ -4,7 +4,7 @@ import serial
 from flask import Flask, jsonify, render_template_string, request
 
 # --- Configuration ---
-COM_PORT = "COM17"  # Change to your port (e.g., '/dev/ttyUSB0' for Linux)
+COM_PORT = "COM21"  # Change to your port (e.g., '/dev/ttyUSB0' for Linux)
 BAUD_RATE = 9600
 SERIAL_TIMEOUT = 1
 
